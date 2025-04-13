@@ -28,14 +28,14 @@ This avoids manual refresh calls and tightly coupled view logic, leveraging Comb
 Combine-DB-UI-Updates
 └── Combine-DB-UI-Updates
     ├── Model
-    │   └── Person.swift           # SwiftData Model
+    │   └── Person.swift               # SwiftData Model
     ├── Persistence
-    │   ├── DatabaseInstance.swift # Singleton DB Service with Publisher
+    │   ├── DatabaseInstance.swift     # Singleton DB Service with Publisher
     │   ├── DatabaseNotification.swift # Enum for notification types
-    │   └── DatabaseProtocol.swift   # Protocol for the DB service
+    │   └── DatabaseProtocol.swift     # Protocol for the DB service
     ├── Views
     │   ├── ContentView
-    │   │   ├── ContentView.swift    # Displays the list of people
+    │   │   ├── ContentView.swift      # Displays the list of people
     │   │   └── ContentViewModel.swift # Subscribes to DB updates, fetches data
     │   └── PersonGenerator
     │       ├── PersonGenerator.swift  # UI to add new people
